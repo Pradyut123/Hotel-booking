@@ -1,0 +1,200 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Work+Sans:wght@500&display=swap"); */
+
+.container {
+  font-family: "Work Sans", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+} 
+
+/* Navbar */
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(19, 19, 150);
+  color: white;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 80px;
+  color: #ffffff;
+}
+
+.navbar-icons {
+  display: flex;
+  padding-right: 80px;
+}
+
+.navbar-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+/* Form */
+
+.main-form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.input-form {
+  width: 380px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box; 
+}
+
+.register-link{
+  font-size: 13px;
+}
+
+.btn-blue {
+  display: inline-block;
+  background-color: rgb(74, 74, 223);
+  color: #ffffff;
+  width: 380px; 
+  height: 50px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-blue:hover {
+  background-color: #3c78d8;
+}
+
+.btn-blue:focus {
+  outline: none;
+}
+
+.lines {
+  align-items: center;
+  text-align: center;
+}
+
+.optionsText {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+}
+
+.optionsText::before {
+  content: "";
+  display: block;
+  width: 18%;
+  height: 1px;
+  border-top: 1px solid rgb(201, 197, 197);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.optionsText::after {
+  content: "";
+  display: block;
+  width: 13%;
+  height: 1px;
+  border-top: 1px solid rgb(201, 197, 197);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.buttonSignInWith {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonGoogle,
+.buttonFacebook,
+.buttonPhone {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 10px; 
+  border-radius: 10%;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.buttonGoogle {
+  background-color: #ffffff;
+  background-image: url("../../assets/google.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttonFacebook {
+  background-color: #ffffff;
+  background-image: url("../../assets/facebook.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttonPhone {
+  background-color: #ffffff;
+  background-image: url("../../assets/mobile.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.moreWaystoSign {
+  font-weight: 700;
+  color: #3c78d8;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.blue-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.grayLines {
+  height: 0px;
+  border-top: 1px solid rgb(201, 197, 197);
+}
+
+.lowerTexts {
+  font-size: small;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  margin: 20px;
+}
